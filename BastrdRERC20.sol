@@ -15,7 +15,7 @@ import "@openzeppelin/contracts/math/SafeMath.sol";
 import "@openzeppelin/contracts/utils/Address.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract RERC20 is Context, IERC20, Ownable {
+contract BastrdRERC20 is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
